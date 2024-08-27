@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피자헛</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/css.css">
+    <script>
+        window.onload = () => {
+            let a = document.querySelectorAll('a')
+            for (let i = 0; i < a.length; i++) {
+                a[i].addEventListener('click', (a) => {
+                    a.preventDefault();
+                })//a.click end
+            }
+        }//window.onload end
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="inner">
+                <div class="htext-wrap">
+                    <a href="#"><img src="img/logo1.png" alt=""></a>
+                    <ul class="header-text">
+                        <li>
+                            <a href="#" class="top">메뉴</a>
+                            <ul class="under">
+                                <li><a href="#">피자</a></li>
+                                <li><a href="#">핫딜</a></li>
+                                <li><a href="#">하프앤하프</a></li>
+                                <li><a href="#">세트</a></li>
+                                <li><a href="#">파스타&치킨</a></li>
+                                <li><a href="#">사이드&음료</a></li>
+                            </ul><!-- .under end -->
+                        </li>
+                        <li>
+                            <a href="#">E쿠폰 주문</a>
+                            <ul class="under">
+                            </ul><!-- .under end -->
+                        </li>
+                        <li>
+                            <a href="#">이벤트&제휴</a>
+                            <ul class="under">
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">제휴할인</a></li>
+                            </ul><!-- .under end -->
+                        </li>
+                        <li>
+                            <a href="#">단체주문</a>
+                            <ul class="under">
+                                <li><a href="#">(매장별)단체 배달 ㆍ 포장</a></li>
+                                <li><a href="#">단체배달</a></li>
+                                <li><a href="#">모바일 상품권(단체/기업)</a></li>
+                                <li><a href="#">지류 상품권</a></li>
+                            </ul><!-- .under end -->
+                        </li>
+                        <li>
+                            <a href="#">창업안내</a>
+                            <ul class="under">
+                                <li><a href="#">창업문의</a></li>
+                            </ul><!-- .under end -->
+                        </li>
+                    </ul><!-- .header-text end -->
+                    <a href="#"><img src="img/icon_menu.svg" alt=""></a>
+                </div>.<!-- htext-wrap end -->
+            </div><!-- .inner end -->
+        </header><!-- .header end -->
+        <header class="Mheader">
+            <a href="#"><img src="img/mobilelogo.png" alt=""></a>
+            <a href="#">메뉴</a>
+            <a href="#">E쿠폰주문</a>
+            <a href="#">이벤트</a>
+            <a href="#"><img src="img/Basket_alt_3_light.svg" alt=""></a>
+        </header><!-- .Mheader end -->
+        <main class="main-visual">
+            <div class="main-wrap">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="img/visual1-1.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/visual2-1.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/visual3-1.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/visual4-2.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/visual5-1.png" alt=""></a></div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div><!-- .mian-wrap end -->
+        </main><!-- .main-visual end -->
+        <div class="search">
+            <div class="inner">
+                <div class="search-box">
+                    <div class="box-box">
+                        <img src="img/Search (1).png" alt="">
+                        <input type="text" placeholder="검색어를 입력해주세요">
+                    </div><!-- .box-box end -->
+                    <button type="button">SEARCH</button>
+                </div><!-- .search-box end -->
+                <div class="tag">
+                    <ul>
+                        <li><a href="#">#인기메뉴</a></li>
+                        <li><a href="#">#핫딜</a></li>
+                        <li><a href="#">#세트메뉴</a></li>
+                        <li><a href="#">#파스타&치킨</a></li>
+                    </ul>
+                </div><!-- .tag end -->
+            </div><!-- .inner end -->
+        </div><!-- .search end -->
+        <div class="main-icon">
+            <div class="main-item">
+                <a href="#">
+                    <div class="bg">
+                        <img src="img/ic_packaging_2023.png" alt="">
+                    </div><!-- .bg end -->
+                </a>
+                <b>배달주문</b>
+            </div><!-- .main-item end -->
+            <div class="main-item">
+                <a href="#">
+                    <div class="bg">
+                        <img src="img/ic_delivery_2023.png" alt="">
+                    </div><!-- .bg end -->
+                </a>
+                <b>포장주문</b>
+            </div><!-- .main-item end -->
+            <div class="main-item">
+                <a href="#">
+                    <div class="bg">
+                        <img src="img/ic_favorite_2023.png" alt="">
+                    </div><!-- .bg end -->
+                </a>
+                <b>마이오더</b>
+            </div><!-- .main-item end -->
+        </div><!-- .main-icon end -->
+        <div class="coupon">
+            <div class="coupon-wrap">
+                <a href="#">
+                    <img src="img/Import.png" alt="">
+                    <b>쿠폰받기</b>
+                </a>
+                <a href="#">
+                    <p>나의 스탬프</p>
+                    <p>적립 현황</p>
+                </a>
+            </div><!-- .coupon-wrap end -->
+        </div><!-- .coubon end -->
+        <div class="main2">
+            <div class="main2-title">
+                <h4>Best</h4>
+                <figure>
+                    <a href="#"><img src="img/icon-menu.png" alt=""></a>
+                </figure>
+            </div><!-- .main2-title end -->
+            <div class="main2-wrap">
+                <div class="main2-item">
+                    <a href="#">
+                        <figure><img src="img/RPPZ0008_s.png" alt=""></figure>
+                    </a>
+                    <div class="text-box">
+                        <strong>수퍼수프림</strong>
+                        <p>오랫동안 사랑받아온 프리미엄<br>
+                            콤비네이션피자</p>
+                        <div class="m2-price">
+                            <div class="mprice">
+                                <div class="flex">
+                                    <span>M</span>
+                                    <b>28,500</b>
+                                </div>
+                                <p>배달 20%: 22,800 ~</p>
+                                <p>포장 30%: 19,950 ~</p>
+                            </div><!-- .mprice end -->
+                            <div class="lprice">
+                                <div class="flex">
+                                    <span>L</span>
+                                    <b>33,900</b>
+                                </div>
+                                <p>배달 20%: 27,120 ~</p>
+                                <p>포장 30%: 23,730 ~</p>
+                            </div><!-- lprice end -->
+                        </div><!-- m2-price end -->
+                    </div><!-- .text-box end -->
+                </div><!-- .main2-item end -->
+                <div class="main2-item">
+                    <a href="#">
+                        <figure><img src="img/RPPZ1803_s.png" alt=""></figure>
+                    </a>
+                    <div class="text-box">
+                        <strong>토핑킹</strong>
+                        <p>돌아온 토핑킹, 이번엔 고기 토핑을<br>
+                            360g을 한 판 가득 담았다!</p>
+                        <div class="m2-price">
+                            <div class="mprice">
+                                <div class="flex">
+                                    <span>M</span>
+                                    <b>30,500</b>
+                                </div>
+                                <p>배달 20%: 24,400 ~</p>
+                                <p>포장 30%: 21,350 ~</p>
+                            </div><!-- .mprice end -->
+                            <div class="lprice">
+                                <div class="flex">
+                                    <span>L</span>
+                                    <b>36,900</b>
+                                </div>
+                                <p>배달 20%: 29,520 ~</p>
+                                <p>포장 30%: 25,830 ~</p>
+                            </div><!-- lprice end -->
+                        </div><!-- m2-price end -->
+                    </div><!-- .text-box end -->
+                </div><!-- .main2-item end -->
+                <div class="main2-item">
+                    <a href="#">
+                        <figure><img src="img/RPPZ1894_s.png" alt=""></figure>
+                    </a>
+                    <div class="text-box">
+                        <strong>콤비네이션</strong>
+                        <p>고소하고 짭조름한 페페로니가 가득한 피자</p>
+                        <div class="m2-price">
+                            <div class="mprice">
+                                <div class="flex">
+                                    <span>M</span>
+                                    <b>21,900</b>
+                                </div>
+                                <p>배달 20%: 17,520 ~</p>
+                                <p>포장 30%: 15,330 ~</p>
+                            </div><!-- .mprice end -->
+                            <div class="lprice">
+                                <div class="flex">
+                                    <span>L</span>
+                                    <b>27,900</b>
+                                </div>
+                                <p>배달 20%: 22,320 ~</p>
+                                <p>포장 30%: 19,530 ~</p>
+                            </div><!-- lprice end -->
+                        </div><!-- m2-price end -->
+                    </div><!-- .text-box end -->
+                </div><!-- .main2-item end -->
+                <div class="main2-item">
+                    <a href="#">
+                        <figure><img src="img/RPPZ1889_s.png" alt=""></figure>
+                    </a>
+                    <div class="text-box">
+                        <strong>페페로니 러버</strong>
+                        <p>출시 이후로 지금까지 꾸준히 사랑받는<br>
+                            베스트셀러 피자!</p>
+                        <div class="m2-price">
+                            <div class="mprice">
+                                <div class="flex">
+                                    <span>M</span>
+                                    <b>19,900</b>
+                                </div>
+                                <p>배달 20%: 15,920 ~</p>
+                                <p>포장 30%: 13,930 ~</p>
+                            </div><!-- .mprice end -->
+                            <div class="lprice">
+                                <div class="flex">
+                                    <span>L</span>
+                                    <b>25,900</b>
+                                </div>
+                                <p>배달 20%: 20,720 ~</p>
+                                <p>포장 30%: 18,130 ~</p>
+                            </div><!-- lprice end -->
+                        </div><!-- m2-price end -->
+                    </div><!-- .text-box end -->
+                </div><!-- .main2-item end -->
+
+            </div><!-- .main2-wrap end -->
+        </div><!-- .main2 end -->
+        <div class="main3">
+            <div class="main3-wrap">
+                <a href="#">
+                    <figure><img src="img/main3-img.jpg" alt=""></figure>
+                </a>
+                <div class="main3-boxwrap">
+                    <a href="#">
+                        <div class="m3-item">
+                            <div class="m3-text">
+                                <b>공지사항</b>
+                                <div class="plus">
+                                    <p>바로가기</p>
+                                    <img src="img/Add_ring_fill.svg" alt="">
+                                </div><!-- .plus end -->
+                            </div><!-- .m3-text end -->
+                        </div><!-- m3-item end -->
+                    </a>
+                    <a href="#">
+                        <div class="m3-item">
+                            <div class="m3-text">
+                                <b>창업안내</b>
+                                <div class="plus">
+                                    <p>바로가기</p>
+                                    <img src="img/Add_ring_fill.svg" alt="">
+                                </div><!-- .plus end -->
+                            </div><!-- .m3-text end -->
+                        </div><!-- m3-item end -->
+                    </a>
+                    <a href="#">
+                        <div class="m3-item">
+                            <div class="m3-text">
+                                <b>자주묻는질문</b>
+                                <div class="plus">
+                                    <p>바로가기</p>
+                                    <img src="img/Add_ring_fill.svg" alt="">
+                                </div><!-- .plus end -->
+                            </div><!-- .m3-text end -->
+                        </div><!-- m3-item end -->
+                    </a>
+                </div><!-- .main3-boxwrap end -->
+            </div><!-- .main3-wrap end -->
+        </div><!-- .main3 end -->
+        <footer>
+            <figure><img src="img/logo2.png" alt=""></figure>
+            <div class="foot-wrap">
+                <div class="foot-b">
+                    <a href="#" class="not"><b>이용약관</b></a>
+                    <a href="#"><b>개인정보처리방침</b></a>
+                    <a href="#"><b>공지사항</b></a>
+                    <a href="#"><b>창업안내</b></a>
+                    <a href="#"><b>대표번호 1588-5588(운영시간 10:30 ~ 22:00)</b></a>
+                </div><!-- foot-.b end -->
+                <div class="foot-p">
+                    <p>서울시 영등포구 국회대료 74길 4, 9~11층</p>
+                    <div class="p2">
+                        <p>사업자등록번호 120-81-63948</p>
+                        <p>통신판매업신고번호 제2018-서울영등포-1220호</p>
+                    </div><!-- .p2 end -->
+                    <div class="p3">
+                        <p>한국피자헛유한회사 대표이자 : 조윤상</p>
+                        <p>개인정보 보호책임자 : 손정완</p>
+                    </div><!-- .p3 end -->
+                </div><!-- .foot-p end -->
+                <div class="copy">
+                    Copyright ⓒ BY PIZZA HUT KOREA LTD. ALL RIGHT RESERVED
+                </div><!-- .copy end -->
+            </div><!-- .foot-wrap end -->
+        </footer>
+    </div><!-- .wrap end -->
+    <div class="Mwrap">
+        <header class="Mheader">
+            <a href="#"><img src="img/mobilelogo.png" alt=""></a>
+            <a href="#">메뉴</a>
+            <a href="#">E쿠폰주문</a>
+            <a href="#">이벤트</a>
+            <a href="#"><img src="img/icon_menu.svg" alt=""></a>
+        </header><!-- .Mheader end -->
+        <main class="Mmain-visual">
+            <figure>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><a href="#"><img src="img/Mmain1.png" alt=""></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="img/Mmain2.png" alt=""></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="img/Mmain3.png" alt=""></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="img/Mmain4.png" alt=""></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="img/Mmain5.png" alt=""></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="img/Mmain6.png" alt=""></a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </figure>
+        </main><!-- .Mmain-visual end -->
+        <div class="main-icon">
+            <div class="main-item">
+                <a href="#">
+                    <div class="bg">
+                        <img src="img/ic_packaging_2023.png" alt="">
+                    </div><!-- .bg end -->
+                </a>
+                <b>배달주문</b>
+            </div><!-- .main-item end -->
+            <div class="main-item">
+                <a href="#">
+                    <div class="bg">
+                        <img src="img/ic_delivery_2023.png" alt="">
+                    </div><!-- .bg end -->
+                </a>
+                <b>포장주문</b>
+            </div><!-- .main-item end -->
+            <div class="main-item">
+                <a href="#">
+                    <div class="bg">
+                        <img src="img/ic_favorite_2023.png" alt="">
+                    </div><!-- .bg end -->
+                </a>
+                <b>마이오더</b>
+            </div><!-- .main-item end -->
+        </div><!-- .main-icon end -->
+        <div class="Mmain-icon">
+            <div class="Micon-wrap">
+                <div class="Micon">
+                    <img src="img/ic_delivery_2023.png" alt="">
+                    <h4>배달주문</h4>
+                </div><!-- Micon end -->
+                <div class="Micon">
+                    <img src="img/ic_packaging_2023.png" alt="">
+                    <h4>포장주문</h4>
+                </div><!-- Micon end -->
+                <div class="Micon">
+                    <img src="img/ic_favorite_2023.png" alt="">
+                    <h4>마이오더</h4>
+                </div><!-- Micon end -->
+            </div><!-- Micon-wrap end -->
+        </div><!-- .Mmain-icon end -->
+        <div class="coupon">
+            <div class="coupon-wrap">
+                <a href="#">
+                    <img src="img/Import.png" alt="">
+                    <b>쿠폰받기</b>
+                </a>
+                <a href="#">
+                    <p>나의 스탬프</p>
+                    <p>적립 현황</p>
+                </a>
+            </div><!-- .coupon-wrap end -->
+        </div><!-- .coupon end -->
+        <div class="main2">
+            <div class="main2-title">
+                <a href="#"><h4>more</h4></a>
+            </div><!-- .main2-title end -->
+            <div class="main2-wrap">
+                <div class="main2-item">
+                    <a href="#">
+                        <figure><img src="img/RPPZ0008_s.png" alt=""></figure>
+                    </a>
+                    <div class="text-box">
+                        <strong>수퍼수프림</strong>
+                        <p>오랫동안 사랑받아온 프리미엄<br>
+                            콤비네이션피자</p>
+                        <div class="m2-price">
+                            <div class="mprice">
+                                <div class="flex">
+                                    <span>M</span>
+                                    <b>28,500</b>
+                                </div>
+                                <p>배달 20%: 22,800 ~</p>
+                                <p>포장 30%: 19,950 ~</p>
+                            </div><!-- .mprice end -->
+                            <div class="lprice">
+                                <div class="flex">
+                                    <span>L</span>
+                                    <b>33,900</b>
+                                </div>
+                                <p>배달 20%: 27,120 ~</p>
+                                <p>포장 30%: 23,730 ~</p>
+                            </div><!-- lprice end -->
+                        </div><!-- m2-price end -->
+                    </div><!-- .text-box end -->
+                </div><!-- .main2-item end -->
+                <div class="main2-item">
+                    <a href="#">
+                        <figure><img src="img/RPPZ1803_s.png" alt=""></figure>
+                    </a>
+                    <div class="text-box">
+                        <strong>토핑킹</strong>
+                        <p>돌아온 토핑킹, 이번엔 고기 토핑을<br>
+                            360g을 한 판 가득 담았다!</p>
+                        <div class="m2-price">
+                            <div class="mprice">
+                                <div class="flex">
+                                    <span>M</span>
+                                    <b>30,500</b>
+                                </div>
+                                <p>배달 20%: 24,400 ~</p>
+                                <p>포장 30%: 21,350 ~</p>
+                            </div><!-- .mprice end -->
+                            <div class="lprice">
+                                <div class="flex">
+                                    <span>L</span>
+                                    <b>36,900</b>
+                                </div>
+                                <p>배달 20%: 29,520 ~</p>
+                                <p>포장 30%: 25,830 ~</p>
+                            </div><!-- lprice end -->
+                        </div><!-- m2-price end -->
+                    </div><!-- .text-box end -->
+                </div><!-- .main2-item end -->
+            </div><!-- .main2-wrap -->
+        </div><!-- .main2 end -->
+        <div class="event">
+            <div class="event-wrap">
+                <figure><a href="#"><img src="img/event2.jpg" alt=""></a></figure>
+                <figure><a href="#"><img src="img/event1.jpg" alt=""></a></figure>
+                <figure><a href="#"><img src="img/event3.jpg" alt=""></a></figure>
+            </div><!-- .event-wrap end -->
+        </div><!-- .event end -->
+        <div class="main3-boxwrap">
+            <a href="#">
+                <div class="m3-item">
+                    <div class="m3-text">
+                        <b>공지사항</b>
+                        <div class="plus">
+                            <p>바로가기</p>
+                            <img src="img/Add_ring_fill.svg" alt="">
+                        </div><!-- .plus end -->
+                    </div><!-- .m3-text end -->
+                </div><!-- m3-item end -->
+            </a>
+            <a href="#">
+                <div class="m3-item">
+                    <div class="m3-text">
+                        <b>창업안내</b>
+                        <div class="plus">
+                            <p>바로가기</p>
+                            <img src="img/Add_ring_fill.svg" alt="">
+                        </div><!-- .plus end -->
+                    </div><!-- .m3-text end -->
+                </div><!-- m3-item end -->
+            </a>
+            <a href="#">
+                <div class="m3-item">
+                    <div class="m3-text">
+                        <b>자주묻는질문</b>
+                        <div class="plus">
+                            <p>바로가기</p>
+                            <img src="img/Add_ring_fill.svg" alt="">
+                        </div><!-- .plus end -->
+                    </div><!-- .m3-text end -->
+                </div><!-- m3-item end -->
+            </a>
+        </div><!-- .main3-boxwrap end -->
+        <footer>
+            <div class="foot-wrap">
+                <div class="foot-b">
+                    <a href="#" class="not"><b>이용약관</b></a>
+                    <a href="#"><b>개인정보처리방침</b></a>
+                    <a href="#"><b>공지사항</b></a>
+                    <a href="#"><b>창업안내</b></a>
+                    <a href="#"><b>대표번호 1588-5588(운영시간 10:30 ~ 22:00)</b></a>
+                </div><!-- foot-.b end -->
+                <div class="foot-p">
+                    <p>서울시 영등포구 국회대료 74길 4, 9~11층</p>
+                    <div class="p2">
+                        <p>사업자등록번호 120-81-63948</p>
+                        <p>통신판매업신고번호 제2018-서울영등포-1220호</p>
+                    </div><!-- .p2 end -->
+                    <div class="p3">
+                        <p>한국피자헛유한회사 대표이자 : 조윤상</p>
+                        <p>개인정보 보호책임자 : 손정완</p>
+                    </div><!-- .p3 end -->
+                </div><!-- .foot-p end -->
+                <div class="copy">
+                    Copyright ⓒ BY PIZZA HUT KOREA LTD. ALL RIGHT RESERVED
+                </div><!-- .copy end -->
+            </div><!-- .foot-wrap end -->
+        </footer>
+    </div><!-- .Mwrap end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
